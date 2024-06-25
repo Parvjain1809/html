@@ -1,0 +1,83 @@
+.skip{
+    position: absolute;
+    left: -1000px;
+    top: -1000px;
+}
+.skip:focus{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:honeydew;
+}
+nav{
+    display: inline-block;
+    width: 80%;
+}
+header{
+    background-color: aqua;
+}
+main{
+    background-color: beige;
+}
+footer{
+    background-color:aliceblue;
+}
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    justify-content: space-around;
+    align-items:center;
+    row-gap: 20px;
+}
+.grid img{
+    width: 100%;
+    border: 7px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10%;
+    opacity: 0.6;
+}
+.grid img:hover{
+    opacity: 1;
+    border-radius: 20%;
+}
+figcaption{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex figure img{
+    border: 7px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: white;
+    opacity: 0.6;
+}
+.flex figure img:hover{
+    opacity: 1;
+    border-radius: 20%;
+}
+.flex figure:nth-child(odd) img {
+    border-radius: 50%;
+}
+
+
